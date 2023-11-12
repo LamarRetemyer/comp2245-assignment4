@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/avengeance-heroic-avenger">
+    <link href="https://www.fontspace.com/avengeance-font-f13706" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
     <title>Superheroes Search</title>
 </head>
 <body>
-    <h1>AVENGERS CHARACTER SEARCH</h1>
+    <div class="header-container">
+        <img src="Avengers images/avengers.jpg" alt="Avengers Logo" id="avengersLogo">
+        <h1>Avengers Character Search</h1>
+    </div>
+    <label for="searchInput"></label>
+    <input type="text" id="searchInput" placeholder="Enter name or alias">
     <button id="searchButton">Search</button>
+    <div id="result"></div>
 
     <script src="app.js"></script>
 </body>
